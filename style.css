@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* BODY CONTENTS */
+
+body header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+body header nav img{
+    width: 6rem;
+    height: 1.5rem;
+}
+
+body header nav{
+    background-color: green;
+    flex-basis: 20%;
+}
+
+body header section{
+    background-color: red;
+    flex-basis: 80%;
+}
