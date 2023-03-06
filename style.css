@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: white;
 }
 
 /* BODY CONTENTS */
 
 body header{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     width: 100%;
 }
@@ -18,12 +19,63 @@ body header nav img{
     height: 1.5rem;
 }
 
+ul{
+    list-style: none;
+}
+
 body header nav{
-    background-color: green;
+    background-color: black;
+    /* color: white; */
+    padding: 2rem;
     flex-basis: 20%;
+    display: block;
+    height: 100vh;
+   
 }
 
 body header section{
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.8);
     flex-basis: 80%;
+    /* color: white; */
+}
+
+/* For the navbar in the second section on the left */
+
+.nav__one{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: flex-end;
+    height: 4.5rem;
+    align-items: center;
+    padding-right: 2.5rem;
+}
+
+.nav__one ul{
+    gap: 2rem;
+    display: flex;
+}
+
+.nav__one ul a{
+    text-decoration: none;    
+    /* color: white; */
+    font-weight: 600;
+}
+
+.login__btn{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    width: 7rem;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.login__btn1{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 7rem;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
 }
