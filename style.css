@@ -8,74 +8,128 @@
 
 /* BODY CONTENTS */
 
+
+
 body header{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
+/* Navbar left(MAIN NAVIGATION BAR) */
+
 body header nav img{
-    width: 6rem;
-    height: 1.5rem;
+    width: 12rem;
+    height: 2rem;
+    margin-bottom: 2rem;
 }
 
 ul{
     list-style: none;
+    line-height: 2rem;
+    font-size: 17px;
+}
+
+.list__one{
+    margin-bottom: 3rem;
+}
+
+.list__one li{
+    color: gray;
+}
+
+.list__two{
+    margin-bottom: 20rem;
+}
+
+.list__two li{
+    color: gray;
 }
 
 body header nav{
     background-color: black;
-    /* color: white; */
     padding: 2rem;
     flex-basis: 20%;
     display: block;
     height: 100vh;
-   
+    position: sticky;
 }
 
 body header section{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(13, 13, 13);
     flex-basis: 80%;
-    /* color: white; */
+}
+
+.footer__elem a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: gray;
+}
+
+.footer__elem{
+    line-height: 2rem;
+    font-size: 12px;
 }
 
 /* For the navbar in the second section on the left */
 
 .nav__one{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: flex-end;
     height: 4.5rem;
     align-items: center;
-    padding-right: 2.5rem;
+    padding-right: 4rem;
 }
 
 .nav__one ul{
-    gap: 2rem;
+    gap: 3rem;
     display: flex;
 }
 
 .nav__one ul a{
     text-decoration: none;    
-    /* color: white; */
     font-weight: 600;
 }
 
+/* Styling for the nav buttons */
+
 .login__btn{
     background-color: white;
-    color: black;
-    padding: 1rem;
+    color: rgb(187, 56, 8);
+    padding: 0.6rem;
     width: 7rem;
     border-radius: 2rem;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    transition: 300ms;
 }
-.login__btn1{
-    background-color: black;
+
+.login__btn:hover{
+    background-color: rgb(187, 56, 8);
     color: white;
-    padding: 1rem;
-    width: 7rem;
-    border-radius: 2rem;
-    justify-content: center;
-    align-items: center;
+}
+
+.signup__btn{
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.signup__btn::after{
+    width: 0%;
+    display: block;
+    height: 0.2rem;
+    background-color: white;
+    content: '';
+    transition: 300ms;
+    margin: auto;
+}
+
+.signup__btn:hover::after{
+    width: 100%;
+}
+
+/* Contents of the main body */
+
+.main__body{
+    padding: 1.5rem;
 }
