@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 1rem; */
+}
+
+.container{
+   width: auto;
+   height: auto;
+   /* margin: auto; */
+   /* justify-content: center; */
+   /* align-items: center; */
+   background-color: white;
+   padding: 0 3rem;
+   
+}
+
+.logo__div{
+    padding: 0 2rem;
+}
+.logo__div a{
+    text-decoration: none;
+}
+.signup__f{
+    background-color: rgb(8, 8, 126);
+    color: white;
+    border-radius: 3rem;
+    padding: 1rem 3rem;
+}
+.signup__a{
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.signup__g{
+  padding:1rem 3rem ;
+  border: 2px solid black;
+  border-radius: 3rem;
+}
+.signup__g:hover{
+    background-color: rgb(0, 0, 0,0.4);
+    transition: all 0.5s;
+}
+
+img{
+    width: 15rem;
+    height: 5rem;
+}
+
+.hr__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+hr{
+    width: 7rem;
+}
+
+.input__box{
+    width: 20rem;
+    height: 2rem;
+    margin: 1rem 0;
+}
+.remember{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    gap: 3rem;
+    border: 3px solid red;
+}
