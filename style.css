@@ -147,3 +147,13 @@ body header section{
 
 
 
+/* Div boxs */
+.music__box{
+    border: 2px solid black;
+    width: 12rem;
+    height: auto;
+}
+.music__box img{
+    width: 10rem;
+    height: 10rem;
+}
