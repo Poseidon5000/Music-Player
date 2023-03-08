@@ -24,6 +24,10 @@ body header nav img{
     margin-bottom: 2rem;
 }
 
+.fas{
+    margin-right: 1rem;
+}
+
 ul{
     list-style: none;
     line-height: 2rem;
